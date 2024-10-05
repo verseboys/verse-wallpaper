@@ -1,0 +1,55 @@
+{
+	"name": "verse-wallpaper",
+	"version": "1.0.2",
+	"description": "Manage the desktop wallpaper verse-wallpaper",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/verseboys/verse-wallpaper.git"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=16"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"source"
+	],
+	"keywords": [
+		"macos",
+		"linux",
+		"windows",
+		"wallpaper",
+		"desktop",
+		"background",
+		"image",
+		"picture",
+		"photo"
+	],
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"tsd": "^0.28.1",
+		"xo": "^0.54.2"
+	},
+	"ava": {
+		"serial": true
+	},
+	"author": {
+		"name": "verseboys",
+		"email": "verseyang123@gmail.com"
+	},
+	"bugs": {
+		"url": "https://github.com/verseboys/verse-wallpaper/issues"
+	},
+	"homepage": "https://github.com/verseboys/verse-wallpaper#readme",
+	"dependencies": {
+		"verse-wallpaper": "file:"
+	}
+}
