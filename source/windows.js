@@ -31,6 +31,7 @@ export async function setWallpaper(imagePath, { scale = "fill" } = {}) {
 
 export async function setLockscreenWallpaper(imagePath) {
 	const arguments_ = ["set", path.resolve(imagePath)];
+	console.log("setLockscreenWallpaper", arguments_);
 	await execFile(lockscreen_wallpaper_binary, arguments_);
 }
 
