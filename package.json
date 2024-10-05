@@ -1,6 +1,6 @@
 {
 	"name": "verse-wallpaper",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Manage the desktop wallpaper verse-wallpaper",
 	"license": "MIT",
 	"scripts": {
