@@ -68,6 +68,14 @@ await setWallpaper('unicorn.jpg');
 */
 export function setWallpaper(imagePath: string, options?: SetOptions): Promise<void>;
 
+
+
+
+
+export function setLockScreenWallpaper(imagePath: string): Promise<void>;
+
+
+
 /**
 __macOS only.__
 
